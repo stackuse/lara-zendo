@@ -1,0 +1,23 @@
+{
+    "name": "libra/zendo",
+    "type": "library",
+    "description": "laravel lib",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "carl",
+            "email": "2009wpeng@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^v10.5",
+        "symfony/http-client": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Libra\\Zendo\\": ""
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
