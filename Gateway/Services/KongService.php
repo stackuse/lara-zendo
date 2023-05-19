@@ -2,9 +2,9 @@
 
 namespace Libra\Zendo\Gateway\Services;
 
+use Libra\Zendo\Exceptions\BaseAuthException;
 use Symfony\Component\HttpClient\HttpClient;
 use Symfony\Contracts\HttpClient\Exception\ExceptionInterface;
-use Libra\Zendo\Exceptions\BaseAuthException;
 
 class KongService
 {

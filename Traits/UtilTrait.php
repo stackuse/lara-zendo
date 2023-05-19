@@ -11,7 +11,6 @@ trait UtilTrait
     public static int $false = 0;
 
 
-
     public function toOid($value)
     {
         if (is_array($value)) {

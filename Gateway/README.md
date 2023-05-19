@@ -12,10 +12,9 @@
   确定用户是否有权访问系统资源的过程
   policy，gate,permit
 
-
 鉴权流程：
-- 认证 client:xxx
 
+- 认证 client:xxx
 
 
 * 用户登录

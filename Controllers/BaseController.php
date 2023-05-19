@@ -7,12 +7,12 @@ use Illuminate\Contracts\Validation\Factory;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Str;
-use SplFileInfo;
-use Symfony\Component\HttpFoundation\BinaryFileResponse;
-use Symfony\Component\HttpFoundation\StreamedResponse;
 use Libra\Zendo\Gateway\Services\PassService;
 use Libra\Zendo\Traits\ResponseTrait;
 use Libra\Zendo\Traits\UtilTrait;
+use SplFileInfo;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Symfony\Component\HttpFoundation\StreamedResponse;
 
 class BaseController extends Controller
 {

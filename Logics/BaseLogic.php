@@ -6,8 +6,8 @@
 
 namespace Libra\Zendo\Logics;
 
-use Redis;
 use Libra\Zendo\Traits\UtilTrait;
+use Redis;
 
 class BaseLogic
 {

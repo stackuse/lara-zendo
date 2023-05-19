@@ -8,16 +8,17 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Validation\ValidationException;
-use PDOException;
-use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Throwable;
 use Libra\Zendo\Exceptions\BaseAuthException;
 use Libra\Zendo\Exceptions\BaseLogicException;
 use Libra\Zendo\Traits\ResponseTrait;
+use PDOException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Throwable;
 
 class Exception extends Handler
 {
     use ResponseTrait;
+
     /**
      * A list of the exception types that are not reported.
      *
